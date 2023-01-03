@@ -5,9 +5,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.wordBox input{
+ height: 30px;
+ width: 80%;
+ margin: auto;
+ display: block;
+ border-radius: 8px;
+ border-color: lightgray;
+}
+.btn{
+  height: 40px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  margin:10px auto;
+}
+.btn1{
+  height: 40px;
+  width: 200px;
+  margin-right: 5px;
+  background-color: rgb(215, 214, 214);
+  border: none;
+}
+.btn2
+{
+  height: 40px;
+  width: 200px;
+  background-color: rgb(215, 214, 214);
+  border: none;
+}
+
+.lang{
+  color: darkgrey;
+  text-align: center;
+}
+.lang span{
+  color: blue;
 }
